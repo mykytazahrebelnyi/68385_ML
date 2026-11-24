@@ -3,6 +3,11 @@ from importlib.metadata import version, PackageNotFoundError
 from pathlib import Path
 
 REQ = Path(__file__).resolve().parents[2] / "requirements.txt"
+print(REQ)
+print(__file__)
+
+print(sys.version)
+print(sys.version.split())
 
 
 def main():

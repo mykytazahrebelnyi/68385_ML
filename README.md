@@ -19,5 +19,7 @@ pip install -r requirements.txt
 | Lab | Topic | Run |
 |---|---|---|
 | [lab01](lab01/report.md) | Environment and first system measurements | `python lab01/src/print_versions.py` then `python lab01/src/run_lab01.py` |
+| [lab02](lab02/report.md) | A neural network from scratch (NumPy MLP, backprop, gradient check) | `python lab02/src/run_lab02.py` |
+| [lab03](lab03/report.md) | Architectures and their costs (MLP vs CNN vs attention, FLOPs, latency) | `python lab03/src/run_lab03.py` |
 
 Datasets are downloaded into `data/`, which is git-ignored.
