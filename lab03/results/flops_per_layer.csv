@@ -1,0 +1,5 @@
+layer,formula,hand_flops,thop_flops,thop_over_hand,torch_counter_flops,torch_counter_over_hand
+Linear  MLP fc1 784->256,2*784*256,401408,401408.0,1.0,401408,1.0
+"Conv2d  CNN conv2 16->32, 3x3, out 14x14",2*3*3*16*32*14*14,1806336,1806336.0,1.0,1806336,1.0
+"Attention  encoder layer 1 (seq 16, d 64, ff 128)","QKV projections 393,216 + attention scores QK^T 32,768 + attention-weighted sum AV 32,768 + output projection 131,072 + feed-forward 524,288",1114112,0.0,0.0,1114112,1.0
+  - its self-attention block only,QKV + QK^T + AV + out,589824,0.0,0.0,589824,1.0
